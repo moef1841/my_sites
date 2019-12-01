@@ -1,0 +1,100 @@
+body, html {
+            background-color: white;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+}
+
+/* header*/
+header {
+        background-image: url(../images/38c1acea277bbe23f24c9ff33a050d4c.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: full;
+        height: 66%;
+}
+
+
+/*nav*/
+.navbar {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+}
+
+.navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 50px;
+}
+
+.navbar ul li {
+               border: 2px solid green;
+               border-radius: 2em;
+               display: inline;
+               padding: 5px 5px 5px 10px;
+               margin: 65px;
+}
+
+.navbar ul li a {
+                 color: orange;
+                 text-decoration: none;
+                 text-align: center;
+                 padding: 20px;
+}
+
+.navbar ul li:hover {
+                     background-color: silver;
+                     border-radius: 2em;
+                     padding: 2px 5px 2px 5px;
+}
+
+header h1 pre {
+               font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+               color: green;
+               float: right;
+               margin: 50px;
+}
+
+
+/*div main*/
+div.main {
+
+          height: 100%;
+          width: 100%;
+}
+
+.section {
+
+          float: left;
+          text-align: center;
+          width: 70%;
+          height: 70%;
+}
+
+.img1 {
+
+       float: right;
+       width: 25%;
+       height: 70%;
+}
+
+
+
+
+/*logo*/
+img.logo1 {
+           background-color: white;
+           margin: 0 0 0 1100px;
+}
+
+
+
+/*footer*/
+.footer {
+        background-color: #003366;
+        height: 10%;
+        color: white;
+        text-align: left;
+}

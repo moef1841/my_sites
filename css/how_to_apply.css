@@ -1,0 +1,89 @@
+body, html {
+
+            background-color: white;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+}
+
+/* header*/
+header {
+        background-image: url(../images/environmental-studies-vs-environmental-science-1080x647.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: full;
+        height: 66%;
+}
+
+.navbar {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+}
+
+.navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 50px;
+}
+
+.navbar ul li {
+               border: 2px solid green;
+               border-radius: 2em;
+               display: inline;
+               padding: 5px 5px 5px 10px;
+               margin: 65px;
+}
+
+.navbar ul li a {
+                 color: white;
+                 text-decoration: none;
+                 text-align: center;
+                 padding: 20px;
+}
+
+.navbar ul li:hover {
+                     background-color: silver;
+                     border-radius: 2em;
+                     padding: 2px 5px 2px 5px;
+}
+
+header h1 pre {
+               font: normal 1em Verdana, Arial, Helvetica, sans-serif;
+               color: green;
+               float: right;
+               margin: 50px;
+}
+
+
+
+/*div class = "main"*/
+.main {
+       text-align: center;
+}
+
+div.steps {
+       text-align: left;
+}
+
+img {
+     float: right;
+     background-color: white;
+     width: 14.5%;
+
+}
+
+
+
+
+
+/*footer*/
+.footer {
+        background-color: #003366;
+        height: 10%;
+        color: white;
+        text-align: left;
+}
+
